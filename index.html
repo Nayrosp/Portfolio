@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Herveux -- Apprenti developpeur</title>
+    <meta name="description" content="Portfolio de thomas herveux - Apprenti développeur">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/global.css">
+    <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+    <!--  Commentaire  -->
+    
+    <header class="header show-nav">
+        <div class="container d-flex">
+            <div class="logo">
+                Thomas Herveux
+            </div>
+            <nav class="navbar">
+                <ul class="menu list-unstyled">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                <!--<li><a href="Professional_experiences.html">Experiences</a></li>
+                    <li><a href="Education.html">Education</a></li> -->
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="right">
+                <ul class="socials list-unstyled">
+                    <li><a href="https://www.linkedin.com/in/thomas-herveux-507530128/" target="_blank">                      
+                        <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                        data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                        </path>
+                        </svg>
+                    </a></li>
+                    <li><a href="https://github.com/Nayrosp" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a></li>
+                </ul>
+                <button class="burger"><span class="bar"></span></button>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="grid">
+                <div class="hero__item left">
+                    <span>Apprenti developpeur</span>
+                    <h1 class="tittle">Welcome, I'm Thomas Herveux</h1>
+                    <p>Etudiant au CESI à Aix-en-Provence</p>
+                </div>
+                <div class="hero__item right">
+                    <div class="hero__avatar">
+                        <img src="./img/avatar_thomas.png" alt="Avatar Thomas Herveux - Apprenti développeur">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <h2 class="section__tittle">A propos</h2>
+                    <h3>Qui suis-je ?</h3>
+                </div>
+                    <p>
+                        Je suis Thomas "Nayrosp" Herveux, un jeune papa dynamique en reconversion professionnelle,
+                        dans le domaine informatique, et plus particulièrement dans le développement informatique.
+                    </p>
+
+                    <p>
+                        Ayant un parcours atypique puisque j'ai été technicien en chimie pendant 5 ans dans différents domaines, 
+                        tels que l'aéronautique, le bâtiment, les analyses biomédicales ou encore le domaine pharmaceutique.
+                        J'ai décidé de changer de voie car j'avais besoin de challenge et de m'épanouir dans un domaine en perpétuelle évolution.
+                    </p>
+
+                    <p>
+                        À part ça, j'aime voyager, profiter de la vie avec ma famille et mes amis. Je suis aussi passionné par la musique, les sports mécaniques et la mécanique.                    </p>
+                
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section__tittle">Mes Compétences</h2>
+        </div>
+        <div class="grid">
+            <div class="grid__item">
+                <ul class="list-unstyled">
+                    <li>
+                        <h3>Python</h3>
+                        <img src="./img/logo_python.png" alt="python">
+                    </li>
+                    <li>
+                        <h3>C</h3>
+                        <img src="./img/logo_c.png" alt="c">
+                    </li>
+                    <li>
+                        <h3>MYSQL</h3>
+                        <img src="./img/logo_mysql.png" alt="MySql">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="grid__item">
+                <ul class="list-unstyled">
+                    <li>
+                        <h3>HTML</h3>
+                        <img src="./img/logo_html.png" alt="HTML">
+                    </li>
+                    <li>
+                        <h3>CSS</h3>
+                        <img src="./img/logo_css.png" alt="CSS">
+                    </li>
+                    <li>
+                        <h3>JavaScript</h3>
+                        <img src="./img/logo_js.png" alt="JavaScript">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="projects" class="projects">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section__tittle">Projets</h2>
+            <p>
+                Au sein du CESI dans la formation de développement informatique, j’ai participé à plusieurs projets qui ont grandement 
+                enrichi mon expérience. Travaillant en équipe et encadré par des professionnels, nous avons développés
+                des applications Web, des systèmes de gestion de bases de données et des solutions logicielles, 
+                en utilisant différentes technologies telles que HTML, CSS, JavaScript, Python, PHP. 
+                Ces projets m’ont permis de mettre en pratique mes connaissances théoriques et d’acquérir de nouvelles compétences.
+            </p>
+        </div>
+        <div class="grid">
+            <div class="grid__item">
+                <div class="card">
+                    <img src="./img/jeu du pendu.png" alt="Jeu du pendu en C" class="card__image">
+                    <div class="card__inner">
+                        <h3 class="card__tittle">Jeu du pendu</h3>
+                        <p class="category">Base de la programmation</p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#" class="card__link" data-id="modal-1">+</a>
+                    </div>
+                </div>
+                <div class="modal" id="modal-1">
+                    <button class="modal__close">&times;</button>
+
+                    <div class="modal__content">
+
+                        <div class="container">
+                          <div class="grid">
+                            <div class="grid__item">
+                              <img src="./img/projets/pendu1.png" class="card__image"
+                                alt="Jeu du pendu" />
+                              <img src="./img/projets/pendu2.png" class="card__image"
+                                alt="Jeu du pendu" />
+                            </div>
+                            <div class="grid__item">
+                              <h4 class="modal__title h2">Jeu du pendu en C</h4>
+                              <p>
+                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                  data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                  <path fill="currentColor"
+                                    d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                  </path>
+                                </svg>
+                                <i>Décembre 2023</i>
+                              </p>
+                              <p class="category">
+                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                  class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512">
+                                  <path fill="currentColor"
+                                    d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                  </path>
+                                </svg>
+                                Algorythyme et  programmation
+                              </p>
+                              <p>
+                                La règle du jeu un joueur doit deviner un mot en proposant des lettres. 
+                                Chaque lettre correctement devinée est affichée dans le mot, tandis que les lettres incorrectes entraînent la construction progressive d'une figure de pendu. 
+                                Le joueur a un nombre limité de tentatives pour deviner le mot avant que la figure du pendu ne soit complétée. 
+                                Si le joueur devine correctement le mot avant que la figure du pendu ne soit terminée, il gagne la partie, sinon il perd.
+                            </p>
+          
+                              <h5 class="h3">Consignes</h5>
+                              <ul>
+                                <li>Réalisation du jeu Hangman en language C.</li>
+                                <li>Le programme peut choisir un mot aléatoire dans un fichier ".txt".</li>
+                                <li>Le programme demande le nom du joueur</li> 
+                                <li>Le programme demande une lettre à la fois </li>
+                                <li>il y a 8 tentatives maximum </li>
+                                <li>Afficher le « dessin » du pendu au fur à et mesure des tentatives </li>
+                                <li>Afficher un « _ » pour chaque lettre du mot à deviner, et afficher la lettre à la place du « _ » quand celle-ci est devinéee
+                                    déjà tentée précédemment, cela n’augmente pas le compteur de tentative (ne fait pas avancer le jeu) </li>
+                              </ul>
+
+                              <h5 class="h3">Ajouts supplémentaires</h5>
+
+                              <ul>
+                                <li>Stocker le nom des joueurs dans un fichier avec leurs scores respectifs, prévoir un écran qui affiche le TOP 10 </li>
+                                <li>Modularisation du code></li>
+                                <li>Possibilité de continuer à la fin de la partie</li>
+                              </ul>
+          
+                              <h5 class="h3">Technologies</h5>
+          
+                              <ul>
+                                <li>C</li>
+                                
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div> 
+            <div class="grid__item">
+                <div class="card">
+                    <img src="./img/projet_meteo.png" alt="Projet cube" class="card__image">
+                    <div class="card__inner">
+                        <h3 class="card__tittle">Projet Cube</h3>
+                        <p class="category">Station météo</p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#" class="card__link" data-id="modal-2">+</a>
+                    </div>
+                </div>
+                <div class="modal" id="modal-2">
+                    <button class="modal__close">&times;</button>
+                    <div class="modal__content">
+
+                        <div class="container">
+                          <div class="grid">
+                            <div class="grid__item">
+                              <img src="./img/projets/meteo1.png" class="card__image"
+                                alt="Projet Cube" />
+                              <img src="./img/projets/meteo2.png" class="card__image"
+                                alt="Projet Cube" />
+                            </div>
+                            <div class="grid__item">
+                              <h4 class="modal__title h2">Projet CUBE</h4>
+                              <p>
+                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                  data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                  <path fill="currentColor"
+                                    d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                  </path>
+                                </svg>
+                                <i>Décembre 2023</i>
+                              </p>
+                              <p class="category">
+                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                  class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512">
+                                  <path fill="currentColor"
+                                    d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                  </path>
+                                </svg>
+                                Concevoir une application informatique
+                              </p>
+                              <p> 
+                            Une société d'électronique et d'électricité grand public a récemment acquis une startup spécialisée dans les stations météorologiques 
+                            basées sur un modèle Cloud. Depuis cette acquisition, les ventes de la station connectée ont chuté en raison des coûts d'hébergement 
+                            élevés et de la baisse des ventes. Pour remédier à cela, l'entreprise cherche à développer un nouveau système de collecte de données 
+                            météorologiques moins coûteux. Le nouveau modèle devra fonctionner comme un serveur local pour réduire les coûts de production. 
+                            Une équipe est chargée de concevoir une maquette de l'application web de visualisation des données et un prototype fonctionnel de la sonde 
+                            et du serveur de collecte des données.
+                            </p>
+          
+                              <h5 class="h3">Consignes</h5>
+                              <ul>
+                                <li>Réaliser un station météo avec différents matériel électronique</li>
+                                <li>Créer un programme Arduino permettant de lire / écrire / envoyer les données d'une sonde</li>
+                                <li>Créer une base de donnée</li> 
+                                <li>Créer une API</li>
+                                <li>Créer un site web permettant d'afficher la température actuel</li>
+                              </ul>
+
+                              <h5 class="h3">Ajout supplémentaire</h5>
+
+                              <ul>
+                                <li>Le site web permet d'afficher un graphique montrant l'évolution des temperatures de la semaine ou du mois</li>
+                              </ul>
+          
+                              <h5 class="h3">Technologies</h5>
+          
+                              <ul>
+                                <li>Arduino</li>
+                                <li>Python => Flask</li>
+                                <li>MySql</li>
+                                <li>HTML</li>
+                                <li>css</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="grid__item">
+                <div class="card">
+                    <img src="./img/matching.png" alt="Projet matching" class="card__image">
+                    <div class="card__inner">
+                        <h3 class="card__tittle">Projet Matching</h3>
+                        <p class="category">Application d'analyse biomédicale</p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#" class="card__link" data-id="modal-3">+</a>
+                    </div>
+                </div>
+                <div class="modal" id="modal-3">
+                    <button class="modal__close">&times;</button>
+                    <div class="modal__content">
+
+                        <div class="container">
+                          <div class="grid">
+                            <div class="grid__item">
+                              <img src="./img/projets/analyse1.png" class="card__image"
+                                alt="Application d'analyse biomédicale" />
+                              <img src="./img/projets/analyse2.png" class="card__image"
+                                alt="Application d'analyse biomédicale" />
+                            </div>
+                            <div class="grid__item">
+                              <h4 class="modal__title h2">Projet Matching</h4>
+                              <p>
+                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                  data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                  <path fill="currentColor"
+                                    d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                  </path>
+                                </svg>
+                                <i>janvier 2024</i>
+                              </p>
+                              <p class="category">
+                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                  class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512">
+                                  <path fill="currentColor"
+                                    d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                  </path>
+                                </svg>
+                                Base de donnée
+                              </p>
+                              <p>
+                                Le projet consiste à créer un site Web où les utilisateurs peuvent créer du contenu et effectuer des
+                                recherches correspondantes. Le thème du site est libre, pouvant être une rencontre, une vente d'occasion, une recherche 
+                                d'emploi, etc. Il faudra prévoir au moins 3 critères différents pour les recherches, pouvant être utilisés individuellement ou combinés
+                                jusqu'à trois.
+                              </p>
+          
+                              <h5 class="h3">Consignes</h5>
+                              <ul>
+                                <li>Créer un site Web de type "matching" où les utilisateurs peuvent créer du contenu et effectuer des recherches</li>
+                                <li>Création de la base de donnée</li>
+                                <li>Création d'un formulaire permettant d'enregistrer du contenu</li> 
+                                <li>Concevoir les requêtes SQL adaptées</li>
+                                <li>Création d'un système de recherche</li>
+                              </ul>
+
+                              <h5 class="h3">Ajouts supplémentaires</h5>
+
+                              <ul>
+                                <li>Création d'un système de pourcentage</li>
+                                <li>Formulaire de contact</li>
+
+                              </ul>
+          
+                              <h5 class="h3">Technologies</h5>
+          
+                              <ul>
+                                <li>Python</li>
+                                <li>Framework : streamlit / pandas </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="grid__item">
+                <div class="card">
+                    <img src="./img/infra.png" alt="Projet Infrastructure" class="card__image">
+                    <div class="card__inner">
+                        <h3 class="card__tittle">Projet Infrastructure</h3>
+                        <p class="category">Déploiement d'un Wordpress</p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#" class="card__link" data-id="modal-4">+</a>
+                    </div>
+                </div>
+                <div class="modal" id="modal-4">
+                    <button class="modal__close">&times;</button>
+                    <div class="modal__content">
+
+                        <div class="container">
+                          <div class="grid">
+                            <div class="grid__item">
+                              <img src="./img/projets/wordpress1.png" class="card__image"
+                                alt="Déploiement d'un Wordpress" />
+                              <img src="./img/projets/wordpress2.png" class="card__image"
+                                alt="Déploiement d'un Wordpress" />
+                            </div>
+                            <div class="grid__item">
+                              <h4 class="modal__title h2">Projet INFRASTRUCTURE</h4>
+                              <p>
+                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                  data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                  <path fill="currentColor"
+                                    d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                  </path>
+                                </svg>
+                                <i>Janvier 2024</i>
+                              </p>
+                              <p class="category">
+                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                  class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512">
+                                  <path fill="currentColor"
+                                    d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                  </path>
+                                </svg>
+                                Analyser le besoin logiciel et études préliminaires
+                              </p>
+                              <p>
+                                Ce projet vise à nous familiariser avec la mise en place d'une infrastructure web en utilisant des outils et services systèmes. 
+                                Pour un développeur moderne, cette compétence est cruciale pour gagner en polyvalence et efficacité.
+                            </p>
+          
+                              <h5 class="h3">Consignes</h5>
+                              <ul>
+                                <li>Mettre en place un serveur et le configurer en vue d’héberger une solution web</li>
+                                <li>Installer, configurer et utiliser des outils reconnus pour permettre d’héberger des solutions web en toute fiabilité</li>
+                                <li>Déployer sur son serveur un site web type WordPress</li> 
+                                <li>Rendre accessible la solution web sur un réseau local via son adresse IP mais aussi via un nom de domaine personnalisé</li>
+                              </ul>
+          
+                              <h5 class="h3">Technologies</h5>
+          
+                              <ul>
+                                <li>Linux - Ubuntu</li>
+                                <li>Wordpress</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="grid__item">
+                <div class="card">
+                    <img src="./img/pointage.png" alt="Système de pointage" class="card__image">
+                    <div class="card__inner">
+                        <h3 class="card__tittle">Système de pointage</h3>
+                        <p class="category">Développement d'un système de badgeage</p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#" class="card__link" data-id="modal-5">+</a>
+                    </div>
+                </div>
+                <div class="modal" id="modal-5">
+                    <button class="modal__close">&times;</button>
+                    <div class="modal__content">
+
+                        <div class="container">
+                          <div class="grid">
+                            <div class="grid__item">
+                              <img src="./img/projets/badge1.png" class="card__image"
+                                alt="Développement d'un système de badgeage" />
+                              <img src="./img/projets/badge2.png" class="card__image"
+                                alt="Développement d'un système de badgeage" />
+                            </div>
+                            <div class="grid__item">
+                              <h4 class="modal__title h2">Système de pointage</h4>
+                              <p>
+                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                                  data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                  <path fill="currentColor"
+                                    d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                                  </path>
+                                </svg>
+                                <i>Février 2024</i>
+                              </p>
+                              <p class="category">
+                                <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                                  class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 512 512">
+                                  <path fill="currentColor"
+                                    d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                                  </path>
+                                </svg>
+                                Objets connectés
+                              </p>
+                              <p>
+                                Le projet consiste à créer un système de badgeage pour les employés d'une entreprise, permettant de suivre leurs entrées et sorties.
+                                 Les demandes fonctionnelles comprennent l'utilisation de badges uniques pour chaque employé, la détection automatique des entrées et 
+                                 sorties, la possibilité d'enregistrer manuellement les badgeages manqués, et l'affichage de rapports d'horaire pour chaque employé 
+                                 sur une période donnée. Des règles de planning sont également établies, notamment pour la durée minimale de la pause déjeuner et 
+                                 le temps de travail quotidien.
+                            </p>
+          
+                              <h5 class="h3">Consignes</h5>
+                              <ul>
+                                <li>Concevoir un MCD</li>
+                                <li>Faire un script permettant l'écriture d'un badge</li>
+                                <li>Faire un script permettant la lecture d'un badge</li> 
+                                <li>Le script d'écriture renvoie bien les informations dans la base de donnée</li>
+                                <li>Le script de lecture renvoie bien les informations dans la base de donnée</li>
+                                <li>Détecter lors du badgeage si il s'agit d'une entrée ou d'une sortie</li>
+                              </ul>
+          
+                              <h5 class="h3">Technologies</h5>
+          
+                              <ul>
+                                <li>Python</li>
+                                <li>PHP</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="contacts" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section__tittle">Contact</h2>
+                <p>Merci pour votre suggestion !  
+                Besoin d’aide, d’informations complémentaires ou tout simplement pour chatter ? 
+                Utilisez mon formulaire pour me contacter !
+            </p>
+            </div>
+        </div>
+
+        <form action="https://formsubmit.co/thomas.herveux@gmail.com " method="POST" class="form">
+            <label for="firstname">
+            <input type="text" name="firstname" id="firstname" placeholder="Prénom">
+            </label>
+            <label for="lastname">
+            <input type="text" name="lastname" id="lastname" placeholder="Nom">
+            </label>
+            <label for="email">
+            <input type="email" name="email" id="email" placeholder="Email">
+            </label>
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <input type="submit" class="btn" value="Envoyer">
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <p>Thomas Herveux</p>
+                </div>
+                <div class="grid__item">
+                        <ul class="socials list-unstyled">
+                            <li><a href="https://www.linkedin.com/in/thomas-herveux-507530128/" target="_blank">                      
+                                <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                                data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="currentColor"
+                                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                </path>
+                                </svg>
+                            </a></li>
+                            <li><a href="https://github.com/Nayrosp" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+
+</html>
