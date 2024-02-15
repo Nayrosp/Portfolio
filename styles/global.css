@@ -47,7 +47,8 @@ img {
 }
 
 ul{
-padding-left: 2rem;}
+padding-left: 2rem;
+}
 
 li{
     margin-bottom: 1rem;
@@ -399,6 +400,7 @@ section{
 .projects p{
     text-align: justify;
 }
+
 .projects .grid__item {
     max-width: 50%;
     margin-bottom: 0;
@@ -446,8 +448,7 @@ section{
     overflow: auto;
     text-align: left;
   }
-
-  .modal__content li {
+.modal__content li {
     text-align: justify;
   }
 
